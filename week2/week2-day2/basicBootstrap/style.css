@@ -1,0 +1,36 @@
+.button{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.jumbotron{
+    margin-top: 20px;
+    background-image: url(Mountain.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.grid {
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template:200px 200px / 25% 25% 2fr 1fr;
+  grid-gap:10px 15px;
+  
+}
+.a {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
